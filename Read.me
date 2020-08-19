@@ -1,0 +1,29 @@
+/*---------------------------------------------
+GitHupUsers API 
+---------------------------------------------*/
+GET				api/github/gitusers
+PARAMETERS		usernames		
+				arraylist of git users, required
+SAMPLE			http://localhost:55184/api/github/gitusers?usernames=jonsnow1144&usernames=technoweenie&usernames=topfunky
+
+/*---------------------------------------------
+Using JQuery
+---------------------------------------------*/
+function getusers(){
+      let data = {            
+		'usernames[0]': 'technoweenie',
+		'usernames[1]': ‘topfunky’,
+		'usernames[2]': ‘gggagagag3’,
+		'usernames[3]': 'jonsnow1144'
+	}
+	$.ajax({
+		url: 'http://localhost:55184/api/github/gitusers',
+		method: 'get',
+		contentType: "application/json",
+		dataType: 'json',
+		data: data,
+		success: function (result) {
+			console.log(result);
+		}
+	})
+}

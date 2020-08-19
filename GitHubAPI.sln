@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1062
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitHubAPI", "GitHubAPI\GitHubAPI.csproj", "{02D15555-AFA6-4088-A03F-393D84A459F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APITester", "APITester\APITester.csproj", "{AFFE9F48-EB7E-42A2-A28F-D6B07C1AF550}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02D15555-AFA6-4088-A03F-393D84A459F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02D15555-AFA6-4088-A03F-393D84A459F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02D15555-AFA6-4088-A03F-393D84A459F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02D15555-AFA6-4088-A03F-393D84A459F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFFE9F48-EB7E-42A2-A28F-D6B07C1AF550}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFFE9F48-EB7E-42A2-A28F-D6B07C1AF550}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFFE9F48-EB7E-42A2-A28F-D6B07C1AF550}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFFE9F48-EB7E-42A2-A28F-D6B07C1AF550}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED47229B-2D1D-4239-BC1B-EB8522E6F136}
+	EndGlobalSection
+EndGlobal
